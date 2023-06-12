@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #025464 /* Primary color */
+}
+
+.container {
+    width: 80%; /* Adjust this to what you prefer */
+    max-width: 1200px; /* This prevents your site from becoming too wide on very large screens. Adjust as necessary. */
+    margin: 0 auto; /* This centers the container horizontally */
+    text-align: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+}
+
+.resume {
+    text-align: center;
+}
+
+h1,h2 {
+    color: #E57C23;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-weight:lighter;
+    color: #E8AA42;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+p,ul {
+    color: #E8AA42;
+    padding-left: 0%;
+    list-style-position: inside;
+    font-family: 'Open Sans', sans-serif;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+}   
+.button {
+    background-color: #E8AA42;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.contactbutton {
+    border-bottom: 8px;
+    background-color: #E8AA42;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    height: 50px;
+    width: 100px;
+}
+
